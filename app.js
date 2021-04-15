@@ -15,8 +15,6 @@ function printaMessage() {
   }
 }
 
-//////////////////////////////
-
 const $hours = document.querySelector('#hours'),
   $minutes = document.querySelector('#minutes'),
   $seconds = document.querySelector('#seconds')
