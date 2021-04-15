@@ -8,11 +8,13 @@ $btn.addEventListener('click', printaMessage)
 function printaMessage() {
   const newMessage = document.createElement('p')
   newMessage.innerText = $message.value
+
   if ($message.value !== '') {
     $text.appendChild(newMessage)
     $message.value = ''
   }
 }
+
 //////////////////////////////
 
 const $hours = document.querySelector('#hours'),

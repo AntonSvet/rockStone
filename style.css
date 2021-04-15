@@ -8,17 +8,16 @@ body {
 .slider {
   position: relative;
   width: 300px;
-  height: 700px;
-  margin: 50px auto 0;
+  height: 550px;
+  margin: 0px auto 0;
   user-select: none;
   touch-action: pan-y;
 }
 
 .slider-list {
   width: 300px;
-  height: 700px;
+  height: 550px;
   overflow: hidden;
-  overflow-y: auto;
 }
 
 .slider-list.grab {
@@ -35,12 +34,15 @@ body {
 
 .slide {
   width: 300px;
-  height: 700px;
+  height: 550px;
   flex-shrink: 0;
   font-size: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.slide.over {
+  overflow-y: auto;
 }
 
 p {
@@ -76,10 +78,10 @@ p {
 }
 
 textarea {
-  margin-top: 75px;
+  margin-top: 50px;
+  min-height: 90px;
   width: 220px;
   resize: none;
-
   padding: 0;
   margin-bottom: 10px;
 }
@@ -89,7 +91,7 @@ textarea {
 }
 .btn {
   width: 220px;
-  height: 65px;
+  height: 50px;
   margin-bottom: 20px;
   justify-content: center;
   align-items: center;
@@ -114,6 +116,7 @@ textarea {
 
 .current-timer {
   width: 50%;
+  overflow-y: none;
 }
 
 .current-timer .timer {
