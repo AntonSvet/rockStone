@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Rockstone</title>
+  </head>
+  <body>
+    <div class="slider">
+      <div class="slider-list">
+        <div class="slider-track">
+          <div class="slide">
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="enter your text"
+              value=""
+            >
+            </textarea>
+            <button class="btn">Send</button>
+            <span></span>
+          </div>
+
+          <div class="slide">
+            <div class="current-timer">
+              <div class="title">Текущее время:</div>
+              <div class="timer">
+                <div class="timer-block">
+                  <div class="timer-block">
+                    <span id="hours">20</span>
+                    часов
+                  </div>
+                  <div class="timer-block">
+                    <span id="minutes">56</span>
+                    минут
+                  </div>
+                  <div class="timer-block">
+                    <span id="seconds">20</span>
+                    секунд
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/slider.js"></script>
+    <script src="/app.js"></script>
+  </body>
+</html>
