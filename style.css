@@ -8,7 +8,7 @@ body {
 .slider {
   position: relative;
   width: 300px;
-  height: 550px;
+  height: 718px;
   margin: 0px auto 0;
   user-select: none;
   touch-action: pan-y;
@@ -16,7 +16,7 @@ body {
 
 .slider-list {
   width: 300px;
-  height: 550px;
+  height: 718px;
   overflow: hidden;
 }
 
@@ -34,7 +34,7 @@ body {
 
 .slide {
   width: 300px;
-  height: 550px;
+  height: 718px;
   flex-shrink: 0;
   font-size: 50px;
   display: flex;
@@ -120,7 +120,7 @@ textarea {
 }
 
 .current-timer .timer {
-  margin-top: 60px;
+  margin-top: 35px;
   padding-left: 95px;
   display: flex;
   justify-content: space-between;
@@ -141,4 +141,45 @@ textarea {
   margin-bottom: 5px;
   font-size: 56px;
   font-weight: 700;
+}
+
+@media screen and (max-width: 414px) {
+  .slider {
+    height: 690px;
+  }
+
+  .slider-list {
+    height: 690px;
+  }
+
+  .slide {
+    height: 690px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .slider {
+    height: 640px;
+  }
+
+  .slider-list {
+    height: 640px;
+  }
+
+  .slide {
+    height: 640px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .slider {
+    height: 550px;
+  }
+
+  .slider-list {
+    height: 550px;
+  }
+
+  .slide {
+    height: 550px;
+  }
 }
