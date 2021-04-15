@@ -145,15 +145,15 @@ textarea {
 
 @media screen and (max-width: 414px) {
   .slider {
-    height: 690px;
+    height: 670px;
   }
 
   .slider-list {
-    height: 690px;
+    height: 670px;
   }
 
   .slide {
-    height: 690px;
+    height: 670px;
   }
 }
 
