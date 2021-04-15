@@ -1,6 +1,6 @@
 const $message = document.getElementById('message'),
   $btn = document.querySelector('.btn'),
-  $text = document.querySelector('span'),
+  $text = document.querySelector('.text'),
   $time = document.querySelector('.time')
 
 $btn.addEventListener('click', printaMessage)
